@@ -9,11 +9,12 @@
 /* Begin PBXBuildFile section */
 		40BE61561B16914400325317 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 40BE61551B16914400325317 /* main.m */; };
 		40BE61591B16914400325317 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 40BE61581B16914400325317 /* AppDelegate.m */; };
-		40BE615C1B16914400325317 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40BE615B1B16914400325317 /* ViewController.m */; };
 		40BE615F1B16914400325317 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40BE615D1B16914400325317 /* Main.storyboard */; };
 		40BE61611B16914400325317 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40BE61601B16914400325317 /* Images.xcassets */; };
 		40BE61641B16914400325317 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40BE61621B16914400325317 /* LaunchScreen.xib */; };
 		40BE61701B16914400325317 /* YoutubeV3ListTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 40BE616F1B16914400325317 /* YoutubeV3ListTests.m */; };
+		40BE617B1B16934500325317 /* YoutubeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40BE617A1B16934500325317 /* YoutubeTableViewController.m */; };
+		40BE617F1B169E1F00325317 /* YoutubeDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40BE617E1B169E1F00325317 /* YoutubeDetailController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +33,17 @@
 		40BE61551B16914400325317 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		40BE61571B16914400325317 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		40BE61581B16914400325317 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		40BE615A1B16914400325317 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		40BE615B1B16914400325317 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		40BE615E1B16914400325317 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		40BE61601B16914400325317 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		40BE61631B16914400325317 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		40BE61691B16914400325317 /* YoutubeV3ListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YoutubeV3ListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		40BE616E1B16914400325317 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		40BE616F1B16914400325317 /* YoutubeV3ListTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YoutubeV3ListTests.m; sourceTree = "<group>"; };
+		40BE61791B16934500325317 /* YoutubeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YoutubeTableViewController.h; sourceTree = "<group>"; };
+		40BE617A1B16934500325317 /* YoutubeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YoutubeTableViewController.m; sourceTree = "<group>"; };
+		40BE617C1B1697D800325317 /* APIKeyAndConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APIKeyAndConstants.h; sourceTree = "<group>"; };
+		40BE617D1B169E1F00325317 /* YoutubeDetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YoutubeDetailController.h; sourceTree = "<group>"; };
+		40BE617E1B169E1F00325317 /* YoutubeDetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YoutubeDetailController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,10 +85,13 @@
 		40BE61521B16914400325317 /* YoutubeV3List */ = {
 			isa = PBXGroup;
 			children = (
+				40BE617C1B1697D800325317 /* APIKeyAndConstants.h */,
 				40BE61571B16914400325317 /* AppDelegate.h */,
 				40BE61581B16914400325317 /* AppDelegate.m */,
-				40BE615A1B16914400325317 /* ViewController.h */,
-				40BE615B1B16914400325317 /* ViewController.m */,
+				40BE61791B16934500325317 /* YoutubeTableViewController.h */,
+				40BE617A1B16934500325317 /* YoutubeTableViewController.m */,
+				40BE617D1B169E1F00325317 /* YoutubeDetailController.h */,
+				40BE617E1B169E1F00325317 /* YoutubeDetailController.m */,
 				40BE615D1B16914400325317 /* Main.storyboard */,
 				40BE61601B16914400325317 /* Images.xcassets */,
 				40BE61621B16914400325317 /* LaunchScreen.xib */,
@@ -219,9 +226,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				40BE615C1B16914400325317 /* ViewController.m in Sources */,
+				40BE617F1B169E1F00325317 /* YoutubeDetailController.m in Sources */,
 				40BE61591B16914400325317 /* AppDelegate.m in Sources */,
 				40BE61561B16914400325317 /* main.m in Sources */,
+				40BE617B1B16934500325317 /* YoutubeTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  YoutubeTableViewController.h
 //  YoutubeV3List
 //
 //  Created by David Rice on 5/27/15.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface YoutubeTableViewController : UITableViewController
 
 @end
-
